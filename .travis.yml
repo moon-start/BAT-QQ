@@ -9,6 +9,7 @@ matrix:
         - python -m pip install --upgrade pip
         #- pip3 install --upgrade pytest
         #- pip3 install codecov
-      env: PATH=/C/Users/moon/Desktop/PythonAPI:/C/Users/moon/Desktop/PythonAPI/Scripts:$PATH
+      #env: PATH=/c/Python35:/c/Python35/Scripts:$PATH
+      env: PATH=/c/Users/moon/Desktop/PythonAPI:/c/Users/moon/Desktop/PythonAPI/Scripts:$PATH
 
 
