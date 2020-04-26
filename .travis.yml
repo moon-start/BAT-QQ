@@ -9,11 +9,11 @@ matrix:
         - python -m pip install --upgrade pip
         #- pip3 install --upgrade pytest
         #- pip3 install codecov
-        - git --version
+        #- git --version
       env: PATH=/c/Python37:/c/Python37/Scripts:$PATH
       #env: PATH=/c/Users/moon/Desktop/PythonAPI:/c/Users/moon/Desktop/PythonAPI/Scripts:$PATH
-      install:
-  	- pip install -r requirements.txt
-      script: python3 A.py || python B.py
+      #install:
+  	#- pip install -r requirements.txt
+script: python3 A.py || python B.py
 
 
