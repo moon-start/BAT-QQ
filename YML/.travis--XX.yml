@@ -1,6 +1,6 @@
 matrix:
   include:
-    - name: "Python 3.7.5 on Windows 10"
+    - name: "Python 3.5.4 on Windows"
       os: windows           # Windows 10.0.17134 N/A Build 17134
       language: shell       # 'language: python' is an error on Travis CI Windows
       before_install:
@@ -9,11 +9,7 @@ matrix:
         - python -m pip install --upgrade pip
         #- pip3 install --upgrade pytest
         #- pip3 install codecov
-        - git --version
       env: PATH=/c/Python37:/c/Python37/Scripts:$PATH
       #env: PATH=/c/Users/moon/Desktop/PythonAPI:/c/Users/moon/Desktop/PythonAPI/Scripts:$PATH
-      install:
-  	- pip install -r requirements.txt
-      script: python3 A.py || python B.py
 
 
