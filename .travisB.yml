@@ -4,8 +4,10 @@ python:
 before_install:
   - python --version
   - pip install -U pip
+  #- pip install -U pytest
   - git remote -v
   - pip install -r requirements.txt
 install:
   - pip install -r requirements.txt
+#script: exit 0
 script: python3 A.py || python B.py
