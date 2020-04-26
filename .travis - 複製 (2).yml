@@ -1,3 +1,26 @@
+language : shell
+
+env:
+  - CONDA_PYTHON=3.7.5
+  - CONDA_PYTHON=2018.12
+  - CONDA_PYTHON=2019.03
+  - CONDA_PYTHON=2019.07
+  - CONDA_PYTHON=nightly
+
+os:
+  - linux
+  - windows
+  - osx
+
+before_install:
+  - source ./tests/before_install_nix_win.sh
+
+install:
+  - source ./tests/install_nix_win.sh
+
+script: 
+  - conda --version && python --version && pip --version;
+
 matrix:
   include:
     - name: "Python 3.5.4 on Windows"
