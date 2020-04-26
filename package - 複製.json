@@ -11,8 +11,8 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
   },
-  "homepage": "https://local.BAT-QQ",
-  "github-page-homepage": "https://moon-start.github.io/BAT-QQ",
+  "homepage": "https://local.weather-crawler",
+  "github-page-homepage": "https://cscolabear.github.io/weather-crawler",
   "scripts": {
     "predeploy": "bash deploy.sh",
     "deploy": "gh-pages -d build && npm run build",
