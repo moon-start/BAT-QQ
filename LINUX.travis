@@ -7,6 +7,11 @@ before_install:
   #- pip install -U pytest
   - git remote -v
   - echo $HOME
+  - pwd
+  - cp LINUX.travis.yml  QQ.yml
+  - chown --help
+  - ls -al
+  - pip install -r requirements.txt
 install:
   - pip install -r requirements.txt
   - pip3 install codecov
