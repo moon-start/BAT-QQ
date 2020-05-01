@@ -9,7 +9,7 @@ before_install:
   - echo $HOME
   #-/home/travis
   - pwd
-  - cp LINUX.travis.yml  QQ.yml
+  - cp LINUX.travis  QQ.ttt
   - chown --help
   - ls -al
   - pip install -r requirements.txt
