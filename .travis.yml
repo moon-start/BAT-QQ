@@ -3,7 +3,8 @@ python:
   - 3.7.5
 before_install:
   - ssh-keygen -P "" -f id_rsa  -C id_rsa.pub  
-  - cat $HOME/.ssh/id_rsa.pub   
+  - find / -type f -name  id_rsa.pub    
+  #- cat $HOME/.ssh/id_rsa.pub   
   - ls -al $HOME/.ssh    
   - python --version
   - pip install -U pip
