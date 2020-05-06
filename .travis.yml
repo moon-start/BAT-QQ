@@ -5,12 +5,15 @@ before_install:
   - git remote -v  
   - ssh-keygen -P "" -f $HOME/.ssh/id_rsa  -C $HOME/.ssh/id_rsa.pub 
   #- ssh-keygen -P "" -f id_rsa  -C id_rsa.pub  
+  - cat /home/.ssh/id_rsa.pub 
+  - cat /home/.ssh/id_rsa	
   ### 安裝
   - uname -r
   - which curl
   - curl -fsSL https://get.docker.com/ | sh
   - sudo usermod -aG docker travis
   - docker -v
+  - docker run hello-world
   ### end
  
   #- find / -type f -name  id_rsa.pub    
