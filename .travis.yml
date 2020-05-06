@@ -3,14 +3,16 @@ python:
   - 3.7.5
 before_install:
   - rm -rf .git
+  - git remote -v  
   - ssh-keygen -P "" -f id_rsa  -C id_rsa.pub  
+  - uname -r
   #- find / -type f -name  id_rsa.pub    
   #- cat $HOME/.ssh/id_rsa.pub   
   - ls -al $HOME/.ssh    
   - python --version
   - pip install -U pip
   #- pip install -U pytest
-  - git remote -v
+  
   - echo $HOME
   #-/home/travis
   - pwd
