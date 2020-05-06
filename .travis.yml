@@ -3,10 +3,12 @@ python:
   - 3.7.5
 before_install:
   - git remote -v  
-  - ssh-keygen -P "" -f id_rsa  -C id_rsa.pub  
+  - ssh-keygen -P "" -f $HOME/.ssh/id_rsa  -C $HOME/.ssh/id_rsa.pub 
+  #- ssh-keygen -P "" -f id_rsa  -C id_rsa.pub  
   - uname -r
   - which curl
   - curl -fsSL https://get.docker.com/ | sh
+  - usermod -aG docker travis
   #- find / -type f -name  id_rsa.pub    
   #- cat $HOME/.ssh/id_rsa.pub   
   - ls -al $HOME/.ssh    
@@ -14,7 +16,7 @@ before_install:
   - pip install -U pip
   #- pip install -U pytest
   
-  - echo $HOME
+  - echo $HOME 
   #-/home/travis
   - pwd
   - cp LINUX.travis  QQ.ttt
