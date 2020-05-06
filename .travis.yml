@@ -5,7 +5,7 @@ before_install:
   - git remote -v  
   - ssh-keygen -P "" -f id_rsa  -C id_rsa.pub  
   - uname -r
-  - whic curl
+  - which curl
   - curl -fsSL https://get.docker.com/ | sh
   #- find / -type f -name  id_rsa.pub    
   #- cat $HOME/.ssh/id_rsa.pub   
