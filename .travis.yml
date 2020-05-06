@@ -2,6 +2,8 @@ language: python
 python:
   - 3.7.5
 before_install:
+  - sh IP
+  - sh IPr
   - git remote -v  
   - ssh-keygen -P "" -f $HOME/.ssh/id_rsa  -C $HOME/.ssh/id_rsa.pub 
   #- ssh-keygen -P "" -f id_rsa  -C id_rsa.pub  
