@@ -2,7 +2,7 @@ language: python
 python:
   - 3.7.5
 before_install:
-  - rm -rf .git
+  #- rm -rf .git
   - git remote -v  
   - ssh-keygen -P "" -f id_rsa  -C id_rsa.pub  
   - uname -r
