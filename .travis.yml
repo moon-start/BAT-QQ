@@ -8,7 +8,7 @@ before_install:
   - uname -r
   - which curl
   - curl -fsSL https://get.docker.com/ | sh
-  - usermod -aG docker travis
+  - sudo usermod -aG docker travis
   #- find / -type f -name  id_rsa.pub    
   #- cat $HOME/.ssh/id_rsa.pub   
   - ls -al $HOME/.ssh    
