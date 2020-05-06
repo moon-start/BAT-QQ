@@ -13,7 +13,7 @@ before_install:
   - curl -fsSL https://get.docker.com/ | sh
   - sudo usermod -aG docker travis
   - docker -v
-  - docker run hello-world
+  #- docker run hello-world
   ### end
  
   #- find / -type f -name  id_rsa.pub    
@@ -31,6 +31,7 @@ before_install:
   - ls -al
   - pip install -r requirements.txt
 install:
+  - docker run hello-world
   - pip install -r requirements.txt
   - pip3 install codecov
 #script: exit 0
