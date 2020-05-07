@@ -3,17 +3,11 @@ python:
   - 3.7.5
 before_install:
   #- ssh
-  - mkdir -p ./QQ
+  #- mkdir -p ./QQ
   #- cd ./QQ........CD無法使用
-  - git clone --depth=50 --branch=master https://github.com/moon-start/BAT-QQ.git moon-start/BAT-QQ
-  - ls -al ./BAT-QQ
+  #- git clone --depth=50 --branch=master https://github.com/moon-start/BAT-QQ.git moon-start/BAT-QQ
+  #- ls -al ./BAT-QQ
   #- mkdir -p ./AA
-  #- echo QQ>./AA/AA.txt
-  #- git add ./AA/AA.txt
-  #- git commit -m "AA"
-  #- git push 
-  #- git push origin HEAD:QQ3
-  - rm -rf ./.git
   - sh IP
   - sh IPr
   #- git remote -v  
@@ -34,7 +28,14 @@ before_install:
   - cp `pwd`/.ssh/id_rsa.pub   $HOME/.ssh/
   - cp `pwd`/.ssh/id_rsa  $HOME/.ssh/
   - cat $HOME/.ssh/id_rsa.pub 
-  - cat $HOME/.ssh/id_rsa	
+  - cat $HOME/.ssh/id_rsa
+  ### ADD ##
+  - echo QQ>./AA/AA.txt
+  - git add ./AA/AA.txt
+  - git commit -m "AA"
+  - git push 
+  - git push origin HEAD:QQ3
+  #- rm -rf ./.git	
   ### 安裝
   - uname -r
   - which curl
