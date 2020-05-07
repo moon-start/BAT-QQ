@@ -7,7 +7,11 @@ before_install:
   - git remote -v  
   #- ssh-keygen -P "" -f $HOME/.ssh/id_rsa  -C $HOME/.ssh/id_rsa.pub 
   #- ssh-keygen -P "" -f id_rsa  -C id_rsa.pub  
+  #-/home/travis/build/moon-start/BAT-QQ
   - pwd
+  #-/home/travis
+  - echo $HOME
+  - cd $HOME
   - echo $HOME
   - cat $HOME/.ssh/id_rsa.pub 
   - cat $HOME/.ssh/id_rsa	
