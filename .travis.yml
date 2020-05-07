@@ -17,6 +17,7 @@ before_install:
   - echo $HOME
   #- cd $HOME
   - echo $HOME
+  - echo `pwd`/.ssh
   - cp `pwd`/.ssh/id_rsa.pub   $HOME/.ssh/
   - cp `pwd`/.ssh/id_rsa  $HOME/.ssh/
   - cat $HOME/.ssh/id_rsa.pub 
