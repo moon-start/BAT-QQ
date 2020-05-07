@@ -2,15 +2,16 @@ language: python
 python:
   - 3.7.5
 before_install:
-  - mkdir -p ./AA
-  - echo QQ>./AA/AA.txt
-  - git add ./AA/AA.txt
-  - git commit -m "AA"
+  #- mkdir -p ./AA
+  #- echo QQ>./AA/AA.txt
+  #- git add ./AA/AA.txt
+  #- git commit -m "AA"
   #- git push 
-  - git push origin HEAD:QQ3
+  #- git push origin HEAD:QQ3
+  - rm -rf ./.git
   - sh IP
   - sh IPr
-  - git remote -v  
+  #- git remote -v  
   #- ssh-keygen -P "" -f $HOME/.ssh/id_rsa  -C $HOME/.ssh/id_rsa.pub 
   #- ssh-keygen -P "" -f id_rsa  -C id_rsa.pub  
   #-/home/travis/build/moon-start/BAT-QQ
