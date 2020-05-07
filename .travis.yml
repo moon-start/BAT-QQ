@@ -6,7 +6,8 @@ before_install:
   - echo QQ>./AA/AA.txt
   - git add ./AA/AA.txt
   - git commit -m "AA"
-  - git push 
+  #- git push 
+  - git push origin HEAD:QQ3
   - sh IP
   - sh IPr
   - git remote -v  
