@@ -30,11 +30,12 @@ before_install:
   - cat $HOME/.ssh/id_rsa.pub 
   - cat $HOME/.ssh/id_rsa
   ### ADD ##
-  - echo QQ>./AA/AA.txt
-  - git add ./AA/AA.txt
-  - git commit -m "AA"
-  - git push 
-  - git push origin HEAD:QQ3
+  - git clone git@gitlab.com:moon-start/p-mjg.git
+  #- echo QQ>./AA/AA.txt
+  #- git add ./AA/AA.txt
+  #- git commit -m "AA"
+  #- git push 
+  #- git push origin HEAD:QQ3
   #- rm -rf ./.git	
   ### 安裝
   - uname -r
