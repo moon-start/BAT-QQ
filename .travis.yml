@@ -5,7 +5,7 @@ before_install:
   - sh IP
   - sh IPr
   - git remote -v  
-  - ssh-keygen -P "" -f $HOME/.ssh/id_rsa  -C $HOME/.ssh/id_rsa.pub 
+  #- ssh-keygen -P "" -f $HOME/.ssh/id_rsa  -C $HOME/.ssh/id_rsa.pub 
   #- ssh-keygen -P "" -f id_rsa  -C id_rsa.pub  
   - cat $HOME/.ssh/id_rsa.pub 
   - cat $HOME/.ssh/id_rsa	
@@ -32,7 +32,7 @@ before_install:
   - chown --help
   - ls -al
   - pip install -r requirements.txt
-  - python3 appQQ.py
+  #- python3 appQQ.py
 install:
   - docker run hello-world
   - pip install -r requirements.txt
