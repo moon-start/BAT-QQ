@@ -4,9 +4,9 @@ python:
 before_install:
   #- ssh
   - mkdir -p ./QQ
-  - cd ./QQ
+  #- cd ./QQ........CD無法使用
   - git clone --depth=50 --branch=master https://github.com/moon-start/BAT-QQ.git moon-start/BAT-QQ
-  - ls -al ./QQ
+  - ls -al ./BAT-QQ
   #- mkdir -p ./AA
   #- echo QQ>./AA/AA.txt
   #- git add ./AA/AA.txt
