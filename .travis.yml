@@ -17,8 +17,8 @@ before_install:
   - echo $HOME
   #- cd $HOME
   - echo $HOME
-  - copy `pwd`/.ssh/id_rsa.pub   $HOME/.ssh/
-  - copy `pwd`/.ssh/id_rsa  $HOME/.ssh/
+  - cp `pwd`/.ssh/id_rsa.pub   $HOME/.ssh/
+  - cp `pwd`/.ssh/id_rsa  $HOME/.ssh/
   - cat $HOME/.ssh/id_rsa.pub 
   - cat $HOME/.ssh/id_rsa	
   ### 安裝
