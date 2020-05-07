@@ -9,8 +9,8 @@ before_install:
   #- ssh-keygen -P "" -f id_rsa  -C id_rsa.pub  
   #-/home/travis/build/moon-start/BAT-QQ
   !ssh-keygen -P "" -f $HOME/.ssh/id_rsa  -C $HOME/.ssh/id_rsa.pub 
-  -ls -al $HOME/.ssh
-  -rm -rf $HOME/.ssh/id_rsa
+  - ls -al $HOME/.ssh
+  - rm -rf $HOME/.ssh/id_rsa
   - rm -rf $HOME/.ssh/id_rsa.pub  
   - pwd
   #-/home/travis
