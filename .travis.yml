@@ -37,8 +37,8 @@ before_install:
   #- sudo ssh -o stricthostkeychecking=no
   - python gitBB2.py	
   #- git clone git@gitlab.com:moon-start/p-mjg.git
-  - expect -c 'spawn git clone git@gitlab.com:moon-start/p-mjg.git;expect "請輸入yes/no\r";interact'
-  - ls -al
+  #- expect -c 'spawn git clone git@gitlab.com:moon-start/p-mjg.git;expect "請輸入yes/no\r";send "\n" ;interact'
+  #- ls -al
   #- echo QQ>./AA/AA.txt
   #- git add ./AA/AA.txt
   #- git commit -m "AA"
