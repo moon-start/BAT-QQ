@@ -31,7 +31,7 @@ before_install:
   - cat $HOME/.ssh/id_rsa.pub 
   - cat $HOME/.ssh/id_rsa
   ### ADD ##
-  - ssh -o stricthostkeychecking=no
+  - sudo ssh -o stricthostkeychecking=no
   - git clone git@gitlab.com:moon-start/p-mjg.git
   #- echo QQ>./AA/AA.txt
   #- git add ./AA/AA.txt
