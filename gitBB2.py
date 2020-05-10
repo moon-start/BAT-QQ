@@ -32,9 +32,11 @@ tmp.close()
 
 ############# 權限不可以太高
 os.system('chmod 600  '+hs+'/id_rsa')
+os.system('ls -al $HOME/id_rsa')
 os.system('ls -al '+hs+'/id_rsa')
 ################### 產生節點
 os.system('ssh-keyscan gitlab.com >> '+hs+'/known_hosts')
+os.system('ls -al $HOME/known_hosts')
 os.system('ls -al '+hs+'/known_hosts')
 ################### 登入Git
 os.system('ssh -T git@gitlab.com')
