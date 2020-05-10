@@ -32,7 +32,7 @@ before_install:
   #- cp `pwd`/.ssh/id_rsa.pub   $HOME/.ssh/
   #- cp `pwd`/.ssh/id_rsa  $HOME/.ssh/
   - python gitBB2.py	
-  - cat $HOME/.ssh/id_rsa.pub 
+  #- cat $HOME/.ssh/id_rsa.pub 
   - cat $HOME/.ssh/id_rsa
   - expect -c 'spawn git clone git@gitlab.com:moon-start/p-mjg.git;expect "請輸入yes/no\r";send "\n" ;interact'
   - ls -al
