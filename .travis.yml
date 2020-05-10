@@ -26,8 +26,11 @@ before_install:
   #- cd $HOME
   - echo $HOME
   - echo `pwd`/.ssh
-  - cp `pwd`/.ssh/id_rsa.pub   $HOME/.ssh/
-  - cp `pwd`/.ssh/id_rsa  $HOME/.ssh/
+  ############
+  # 取得指紋
+  - ssh-keygen -P "" -f $HOME/.ssh/id_rsa  -C $HOME/.ssh/id_rsa.pub 
+  #- cp `pwd`/.ssh/id_rsa.pub   $HOME/.ssh/
+  #- cp `pwd`/.ssh/id_rsa  $HOME/.ssh/
   - cat $HOME/.ssh/id_rsa.pub 
   - cat $HOME/.ssh/id_rsa
   ### ADD ##
