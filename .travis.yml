@@ -68,6 +68,10 @@ before_install:
   - chown --help
   - ls -al
   - pip install -r requirements.txt
+  ########## LINE
+  ########## pip install line-bot-sdk
+  - python get3.py
+  #########################################
   #- python3 appQQ.py
 install:
   - docker run hello-world
