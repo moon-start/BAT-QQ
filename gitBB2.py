@@ -34,7 +34,7 @@ os.system('chmod 600 /root/.ssh/id_rsa')
 os.system('ssh-keyscan github.com >> '+hs+'/known_hosts')
 ################### 登入Git
 os.system('ssh -T git@github.com')
-print('執行完成!!'+sys.argv[1])
+# print('執行完成!!'+sys.argv[1])
 ###############
 ###############
 ############### 個人資訊
