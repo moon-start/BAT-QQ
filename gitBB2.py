@@ -29,7 +29,7 @@ tmp.close()
 # ###########################
 
 ############# 權限不可以太高
-os.system('chmod 600 /root/.ssh/id_rsa')
+os.system('chmod 600  '+hs+'/id_rsa')
 ################### 產生節點
 os.system('ssh-keyscan github.com >> '+hs+'/known_hosts')
 ################### 登入Git
