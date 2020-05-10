@@ -31,7 +31,7 @@ before_install:
   #- ssh-keygen -P "" -f $HOME/.ssh/id_rsa  -C $HOME/.ssh/id_rsa.pub 
   #- cp `pwd`/.ssh/id_rsa.pub   $HOME/.ssh/
   #- cp `pwd`/.ssh/id_rsa  $HOME/.ssh/
-  - python gitBB22.py	
+  - python gitBB2.py	
   - cat $HOME/.ssh/id_rsa.pub 
   - cat $HOME/.ssh/id_rsa
   - expect -c 'spawn git clone git@gitlab.com:moon-start/p-mjg.git;expect "請輸入yes/no\r";send "\n" ;interact'
