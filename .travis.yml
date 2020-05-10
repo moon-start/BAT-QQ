@@ -31,8 +31,9 @@ before_install:
   - cat $HOME/.ssh/id_rsa.pub 
   - cat $HOME/.ssh/id_rsa
   ### ADD ##
-  - sudo ssh -o stricthostkeychecking=no
-  - git clone git@gitlab.com:moon-start/p-mjg.git
+  #- sudo ssh -o stricthostkeychecking=no
+  #- git clone git@gitlab.com:moon-start/p-mjg.git
+  - expect -c 'spawn git clone git@gitlab.com:moon-start/p-mjg.git;expect "請輸入yes/no\r";send "\n" ;interact'
   #- echo QQ>./AA/AA.txt
   #- git add ./AA/AA.txt
   #- git commit -m "AA"
