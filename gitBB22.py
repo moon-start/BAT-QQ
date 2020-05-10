@@ -1,0 +1,39 @@
+BB2 = {
+"id_rsa" : "LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFcEFJQkFBS0NBUUVBNWtaRHRhMVVROXJWNGtFVzlKU2Q4UC9oUklCRlZpeEp3WGlCbXlWdkM5VmViWldmCkFvSEw2eG1yZmdLeEk3QVVObUZiSHIyM2RpL0lPc1hBcG1yQjEwbVMwMUVwb1NFL2t4VS9ZTDhJV1ZEV0pWYUwKU2JCc3dxSDRoVld1TGVHNlhwNW5NbmVLNm5hT1RIQTY1dnRHbTJTVG5wZ2J5ck81ODE3b3pqYzY5aDNNcnkvdQphNjJSZm04RVhmSWdDOVdIUzhQR0lPa1RIS2ttT2JJaEFnVTFKNmoyS1oyTTc2d2NiSld1TkNScFdoSkxNYXdvCi9ySzI2czg1T1MyeUpCWXJ0WDcweFhRYTlHSnhNM0tRc05yRkVOT1orK20yZHdZenkrN0kzYmpvMlJqZXJzYTYKd3pUa3k4WHkxYzRIRmpHMVM1YWJMekljZGVYbm9YTlhyaTFnQ1FJREFRQUJBb0lCQVFDbVp6cEF6RXRyYVhWTQpOZHNmelZIQk9UZVJaOXd6SkhmOERsZ2lSRS9WemsrWmd4alFGL25ESDk2MGhiOTZXYUNSbDVMZ1NScU5sb1BzCkxNRkZ3VG5vbUdzNHQ1c01yRmtqc2FRR0JxWkMzTTZUVnRINjR6b0ZBRVQySFc5c0NvWENJRmZVdVZ3eWlJL1cKSHZnQnVLMVNWOER4UjF3MkErQ3BSUG1aSTRKQkhQSzY5dWt4OVRRWnJ0emhLVjdzSzUyM1lVL3VDTDA1NVRSbQpsOFd5Z2l5ek9NRW5IWlVrSHgybjhIRXpQbXplY2JLVFpwaSt0UFM4Q2kvQ2ltSEJjNGJtaml2bnFkRlVaOWhQCmNTQVFUSWZtS29oWnFMK1JWbkFCaWozcTh6SGtlUzVxSlJiUHNVQ0s5ckZQQmhrTy9PU1BHOWpDVmFoMEZyWkgKNGFMVW5xQUJBb0dCQVBiTG5oUUpJdmJGbmFHeVU4MCsxYWtUbVN2NDQ0RGxtbGgyVEprcjF3VUQ1dk10Q0ZmZwpEUnRTcDQxZFcySkp6YUt4MlNjNUJkQXdHRm1MbVJrSVcrZmxpb3J3cWdhbWMwdDhlOXVFZDZGUUJncHArOXVaCkpsWVVSZ0cwK3VJdm1nSjNHT1FCVHFwYXBUNzhBZ25PRUpMOVViRFQyMGJMakN2QkVuVk1xZ3dCQW9HQkFPN2MKNkJ1ckNGNXZUdmFpc3ErQ0J3VXBLUmtIQkhlT21ROGpndDdGcUF5SUNIOWoxY2tlcXk4anloRTZ4STBjUG1kbQpiWjFqMlJGQkxWVFZWbGkxTmR3MXJrcGZPZW9GY0piazEramtINEUxOXh3NTNLTWJ1WEo3bTZnQzhqL2x4RVhxClRxQlYrTzRjQVhrdnFxNGNyMzhJTWZ4dExOY2RrQmhmWFlqUXd2UUpBb0dCQUxFRExxaTBQTzIrbytjOFhyc1IKM0hIZTZyZ05WakEzZnRNQVZzUnVHMVV2alZEUjlmQUJkYVVwVGFBcFc4aE5vejZVVFdyQ2paYmJTRHZCMHRlUApsVXZvNmN2cC9pbXk3WE14SUMwOUFBa2x1bzl4b1FITEFTSXdmRjN4RHhsNGh3QkpxQUt4cFZpdWwyTnJvWktpCnlHU0ZhVGhwWEJlVkd6NnV4cXgzaG1nQkFvR0FXVHUzamxhSHF0ZkVWUWtVM2RJaWt6LzhOWGhVcCtGaXRyQWEKZk9TMFVmSWowb3RXVzJzVW9taXBYV1JwOXhsZENyM09KMlVjdTRCdzBlZGMrWWpBMVVKTW1VWVgyYUFzbm9KaApVb1NlYkdQZnEvREZ4ejFkT3pLSVJPek0yU2daK2RCOWpSSnhDMnIwOWZQanZHWEUvaHp1cDVHVmxjdGFnSEJuCi9ldVhXUmtDZ1lBNU01WWNIWEtRekJQOGpGOE5CRGQzVnozS2VKNDZCblRZbzJ0aksyM3BoUmJHYWxlaUpWcXQKZ2FRT3J2d1R4c0toZzFlTXpZdEdMV0VaTUg4b1p0UktXakZVYkhiUzMrS2IxUFFMUzRtazJRYWppOTJKeU10aApJUXdNTFc5VzlMVXBMTXZOM3lCRFcwU3gzYXFNbVpyc20wMUxkUmhpazN6ZStQSG1BR1RqdkE9PQotLS0tLUVORCBSU0EgUFJJVkFURSBLRVktLS0tLQo=",
+"id_rsa_pub" : "c3NoLXJzYSBBQUFBQjNOemFDMXljMkVBQUFBREFRQUJBQUFCQVFEbVJrTzFyVlJEMnRYaVFSYjBsSjN3LytGRWdFVldMRW5CZUlHYkpXOEwxVjV0bFo4Q2djdnJHYXQrQXJFanNCUTJZVnNldmJkMkw4ZzZ4Y0NtYXNIWFNaTFRVU21oSVQrVEZUOWd2d2haVU5ZbFZvdEpzR3pDb2ZpRlZhNHQ0YnBlbm1jeWQ0cnFkbzVNY0RybSswYWJaSk9lbUJ2S3M3bnpYdWpPTnpyMkhjeXZMKzVyclpGK2J3UmQ4aUFMMVlkTHc4WWc2Uk1jcVNZNXNpRUNCVFVucVBZcG5ZenZyQnhzbGE0MEpHbGFFa3N4ckNqK3NyYnF6ems1TGJJa0ZpdTFmdlRGZEJyMFluRXpjcEN3MnNVUTA1bjc2YlozQmpQTDdzamR1T2paR042dXhyckROT1RMeGZMVnpnY1dNYlZMbHBzdk1oeDE1ZWVoYzFldUxXQUogbG9naW4wNTE2bXA0QGdtYWlsLmNvbQ0K",
+"known_hosts" : "Z2l0aHViLmNvbSwxNDAuODIuMTE0LjMgc3NoLXJzYSBBQUFBQjNOemFDMXljMkVBQUFBQkl3QUFBUUVBcTJBN2hSR21kbm05dFVEYk85SURTd0JLNlRiUWErUFhZUENQeTZyYlRyVHR3N1BIa2NjS3JwcDB5VmhwNUhkRUljS3I2cExsVkRCZk9MWDlRVXN5Q09WMHd6ZmpJSk5sR0VZc2RsTEppekhoYm4ybVVqdlNBSFFxWkVUWVA4MWVGekxRTm5QSHQ0RVZWVWg3VmZERVNVODRLZXptRDVRbFdwWExtdlUzMS95TWYrU2U4eGhIVHZLU0NaSUZJbVd3b0c2bWJVb1dmOW56cElvYVNqQit3ZXFxVVVtcGFhYXNYVmFsNzJKK1VYMkIrMlJQVzNSY1QwZU96UWdxbEpMM1JLclRKdmRzakUzSkVBdkdxM2xHSFNaWHkyOEczc2t1YTJTbVZpL3c0eUNFNmdiT0RxblRXbGc3K3dDNjA0eWRHWEE4VkppUzVhcDQzSlhpVUZGQWFRPT0xOTIuMzAuMjUzLjExMiBzc2gtcnNhIEFBQUFCM056YUMxeWMyRUFBQUFCSXdBQUFRRUFxMkE3aFJHbWRubTl0VURiTzlJRFN3Qks2VGJRYStQWFlQQ1B5NnJiVHJUdHc3UEhrY2NLcnBwMHlWaHA1SGRFSWNLcjZwTGxWREJmT0xYOVFVc3lDT1Ywd3pmaklKTmxHRVlzZGxMSml6SGhibjJtVWp2U0FIUXFaRVRZUDgxZUZ6TFFOblBIdDRFVlZVaDdWZkRFU1U4NEtlem1ENVFsV3BYTG12VTMxL3lNZitTZTh4aEhUdktTQ1pJRkltV3dvRzZtYlVvV2Y5bnpwSW9hU2pCK3dlcXFVVW1wYWFhc1hWYWw3MkorVVgyQisyUlBXM1JjVDBlT3pRZ3FsSkwzUktyVEp2ZHNqRTNKRUF2R3EzbEdIU1pYeTI4RzNza3VhMlNtVmkvdzR5Q0U2Z2JPRHFuVFdsZzcrd0M2MDR5ZEdYQThWSmlTNWFwNDNKWGlVRkZBYVE9PQo=",
+"ALL" : ['id_rsa', 'id_rsa.pub', 'known_hosts']
+}
+# print('建立exe.py檔案')
+##################################################################################################################################################################################################################
+# from exe import BB2 
+import os,base64,sys
+###################
+##########################################
+os.chdir( '/root' )
+if not os.path.isdir(".ssh"):
+    os.system("mkdir .ssh")
+###########################
+os.chdir("/root/.ssh")
+tmp = open('id_rsa', 'wb')
+tmp.write(base64.b64decode( BB2.get('id_rsa') ))
+tmp.close()
+###########################
+# ###########################
+# tmpA = open('id_rsa.pub', 'wb')
+# tmpA.write(base64.b64decode( BB2.get('id_rsa_pub') ))
+# tmpA.close()
+# ###########################
+
+############# 權限不可以太高
+os.system('chmod 600 /root/.ssh/id_rsa')
+################### 產生節點
+os.system('ssh-keyscan github.com >> /root/.ssh/known_hosts')
+################### 登入Git
+os.system('ssh -T git@github.com')
+print('執行完成!!'+sys.argv[1])
+###############
+###############
+############### 個人資訊
+os.system('git config --global user.name "moon-start"')
+os.system('git config --global user.email "login0516mp4@gmail.com"')
