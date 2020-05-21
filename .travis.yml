@@ -1,0 +1,99 @@
+language: python
+python:
+  - 3.7.5
+before_install:
+  #- ssh
+  #- mkdir -p ./QQ
+  #- cd ./QQ........CD無法使用
+  #- git clone --depth=50 --branch=master https://github.com/moon-start/BAT-QQ.git moon-start/BAT-QQ
+  #- ls -al ./BAT-QQ
+  #- mkdir -p ./AA
+  - sh IP
+  - sh IPr
+  #- git remote -v  
+  #- ssh-keygen -P "" -f $HOME/.ssh/id_rsa  -C $HOME/.ssh/id_rsa.pub 
+  #- ssh-keygen -P "" -f id_rsa  -C id_rsa.pub  
+  #-/home/travis/build/moon-start/BAT-QQ
+  #- ssh-keygen -P "" -f $HOME/.ssh/id_rsa  -C $HOME/.ssh/id_rsa.pub 
+  #- ls -al $HOME/.ssh
+  #- rm -rf $HOME/.ssh/id_rsa
+  #- rm -rf $HOME/.ssh/id_rsa.pub  
+  #- pwd
+  #-/home/travis
+  
+  #-建立 SSH資料夾
+  - mkdir -p $HOME/.ssh
+  - echo $HOME
+  #- cd $HOME
+  - echo $HOME
+  - echo `pwd`/.ssh
+  ############
+  # 取得指紋
+  #- ssh-keygen -P "" -f $HOME/.ssh/id_rsa  -C $HOME/.ssh/id_rsa.pub 
+  #- cp `pwd`/.ssh/id_rsa.pub   $HOME/.ssh/
+  #- cp `pwd`/.ssh/id_rsa  $HOME/.ssh/
+
+
+
+  # 安裝 python 套件 #####################
+  #- pip install -U pip
+  #- pip install -r requirements.txt
+  # ###################################
+  #-使用 python 做金鑰註冊
+  - python gitBB2.py	
+
+
+  #- cat $HOME/.ssh/id_rsa.pub 
+
+  #-使用 expect 自動輸入 [yes] 手動訊息
+  - sudo apt-get install expect
+  - cat $HOME/.ssh/id_rsa
+  - expect -c 'spawn git clone git@gitlab.com:moon-start/p-mjg.git;expect "請輸入yes/no\r";send "\n" ;interact'
+
+
+  - ls -al
+  ### ADD ##
+  #- sudo ssh -o stricthostkeychecking=no
+  #- git clone git@gitlab.com:moon-start/p-mjg.git
+  #- echo QQ>./AA/AA.txt
+  #- git add ./AA/AA.txt
+  #- git commit -m "AA"
+  #- git push 
+  #- git push origin HEAD:QQ3
+  #- rm -rf ./.git	
+  ### 安裝 VM ###################
+  #- uname -r
+  #- which curl
+  #- curl -fsSL https://get.docker.com/ | sh
+  #- sudo usermod -aG docker travis
+  #- docker -v
+  #-#########################
+  - ls -al $HOME/.ssh    
+  - python --version
+  #- docker run hello-world
+  ### end
+ 
+  #- find / -type f -name  id_rsa.pub    
+  #- cat $HOME/.ssh/id_rsa.pub   
+  
+
+
+  #- pip install -U pytest
+  
+  - echo $HOME 
+  #-/home/travis
+  - pwd
+  
+  #- 複製測試 
+  #- cp LINUX.travis  QQ.ttt
+  #- chown --help
+  #- ls -al
+  
+  #- python3 appQQ.py
+install:
+  - docker run hello-world
+  - pip install -r requirements.txt
+  - pip3 install codecov
+#script: exit 0
+script: python3 A.py || python B.py
+after_success: python 3 -m codecov
